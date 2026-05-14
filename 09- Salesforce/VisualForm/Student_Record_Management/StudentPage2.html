@@ -1,0 +1,31 @@
+<apex:page controller="StudentController">
+    <apex:form>
+        <h2>Student Details</h2>
+        <br /><br />
+        Student Name:
+        <apex:inputField value="{!stu.Name}" /><br />
+        Roll No:
+        <apex:inputField value="{!stu.Roll_No__c}" /><br />
+        Class:
+        <apex:inputField value="{!stu.Class__c}" /><br />
+        Mobile No:
+        <apex:inputField value="{!stu.Mobile_No__c}" /><br /><br />
+        <apex:commandButton value="Save" action="{!saveStudent}" />
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Class</th>
+                <th>Mobile No</th>
+            </tr>
+            <apex:repeat value="{!stuList}" var="s">
+                <tr>
+                    <td>{!s.Name}</td>
+                    <td>{!s.Roll_No__c}</td>
+                    <td>{!s.Class__c}</td>
+                    <td>{!s.Mobile_No__c}</td>
+                </tr>
+            </apex:repeat>
+        </table>
+    </apex:form>
+</apex:page>
