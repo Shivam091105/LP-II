@@ -37,12 +37,16 @@ int main() {
     }
 
     cout << "Selected Jobs:\n";
-
+    int profit = 0;
     for(int i = 0; i < 3; i++) {
         if(slot[i] != -1) {
             cout << jobs[slot[i]].id << " ";
+            profit += jobs[slot[i]].profit;
         }
     }
+    cout<<endl;
+    cout<<"Total Profit: "<<profit<<endl;
+    
 
     return 0;
 }

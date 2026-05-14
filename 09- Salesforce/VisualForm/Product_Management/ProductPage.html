@@ -1,0 +1,21 @@
+<apex:page controller="ProductController">
+    <apex:form>
+        <h2>Product Details</h2>
+        <br /><br />
+        Product Name:
+        <apex:inputField value="{!pro.Name}" /><br />
+        Serial Number:
+        <apex:inputField value="{!pro.Sr_No__c}" /><br />
+        Manufacturing Date:
+        <apex:inputField value="{!pro.Mf_Date__c}" /><br />
+        Expiry Date:
+        <apex:inputField value="{!pro.Exp_Date__c}" /><br /><br />
+        <apex:commandButton value="Save" action="{!saveProduct}" /><br />
+        <apex:pageBlockTable value="{!proList}" var="p">
+            <apex:column value="{!p.Name}" /><br />
+            <apex:column value="{!p.Sr_No__c}" /><br />
+            <apex:column value="{!p.Mf_Date__c}" /><br />
+            <apex:column value="{!p.Exp_Date__c}" /><br />
+        </apex:pageBlockTable>
+    </apex:form>
+</apex:page>
