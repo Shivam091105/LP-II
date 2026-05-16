@@ -1,7 +1,16 @@
 # Salesforce Assignments - Apex, Execute Anonymous and Visualforce Code
 
 This README contains finalized Salesforce practical code assignment-wise.
-
+all github links:
+1. https://github.com/4SNA/salesforce-email-notification.git
+2. https://github.com/4SNA/SecureFileSharing.git
+3. https://github.com/4SNA/College-Management-Lightning-App.git
+4. https://github.com/4SNA/Event-Registration_LP2.git
+5. https://github.com/4SNA/Task-Manager-LP2.git
+6. https://github.com/4SNA/ecommerce-app-LP2.git
+7. https://github.com/4SNA/Student-Record-Management-System-LP-2.git
+8. https://github.com/4SNA/Blog-app-LP-2.git
+9. https://github.com/4SNA/Static-Website-EC2-apache.git
 ---
 
 # Assignment 16 - Student Record Management System
