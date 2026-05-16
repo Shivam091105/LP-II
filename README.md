@@ -5,7 +5,7 @@ all github links:
 1. https://github.com/4SNA/salesforce-email-notification.git
 2. https://github.com/4SNA/SecureFileSharing.git
 3. https://github.com/4SNA/College-Management-Lightning-App.git
-4. git@github.com:4SNA/Employee-Management----Salesforce.git
+4. https://github.com/4SNA/Employee-Management----Salesforce.git
 5. https://github.com/4SNA/Event-Registration_LP2.git
 6. https://github.com/4SNA/Task-Manager-LP2.git
 7. https://github.com/4SNA/ecommerce-app-LP2.git
