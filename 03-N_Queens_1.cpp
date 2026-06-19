@@ -78,7 +78,6 @@ public:
 int main() {
 
     int n;
-
     cout << "Enter value of N: ";
     cin >> n;
 
